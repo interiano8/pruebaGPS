@@ -24,11 +24,13 @@ Ruta: api/personas
 
 Json
 
+
 {
-  "ID": 1,
-  "NombreNew": "Erick",
-  "NombreOld": "Juan"
+    "ID": 1,
+    "NombreNew": "Erick",
+    "NombreOld": "Juan"
 }
+
 
 
 
@@ -40,10 +42,12 @@ Ruta: api/personas
 Json
 
 
+
 {
-  "ID": 3,
-  "Nombre": "Erick"
+    "ID": 3,
+    "Nombre": "Erick"
 }
+
 
 
 *************************************************************
