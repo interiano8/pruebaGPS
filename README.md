@@ -9,9 +9,12 @@ POST
 Ruta: api/personas
 Json
 
+
+
 {
   "Nombre": "Erick"
 }
+
 
 
 
@@ -33,10 +36,12 @@ Delete
 Ruta: api/personas
 Json
 
+
 {
   "ID": 3,
   "Nombre": "Erick"
 }
+
 
 *************************************************************
 Tabla Tarea
@@ -46,6 +51,7 @@ Ruta: api/tareas
 
 POST
 Ruta: api/tareas
+
     {
         "Descripcion": "ingreso2",
         "PersonaID": 1,
@@ -55,11 +61,13 @@ Ruta: api/tareas
     }
 
 
+
 PUT
 Ruta: api/tareas
 
 Es necesario pasar los parámetros ID y PersonaID para encontrar la tarea, y los valores nuevos.
 Se puede enviar de la siguiente manera
+
 
     {
         "ID": 1,
@@ -69,6 +77,7 @@ Se puede enviar de la siguiente manera
         "Valor": 110,
         "Duracion": "00:49:00"
     }
+    
     
     
 O solo los que se desean actualizar 
@@ -82,12 +91,17 @@ O solo los que se desean actualizar
 
 DELETE
 Ruta: api/tareas
+
+
     {
         "ID": 2,
         "PersonaID": 1
     }
+    
+    
 
 
+*********************************
 Suma de Valor y Horas 
 Ruta: /api/resumenvalor/2
 Parámetro=2
@@ -95,7 +109,14 @@ Parámetro=2
 Detalle de tareas por Fecha y Persona
 Ruta: /api/detalle
 
+
+
 {
-  "PersonaID": 3,
-  "Fecha": "2023-05-11"
+    "PersonaID": 3,
+    "Fecha": "2023-05-11"
 }
+
+
+
+
+
