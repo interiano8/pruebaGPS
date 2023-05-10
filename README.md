@@ -7,12 +7,13 @@ Ruta: api/personas
 
 POST
 Ruta: api/personas
+
 Json
 
 
 
 {
-  "Nombre": "Erick"
+    "Nombre": "Erick"
 }
 
 
@@ -20,6 +21,7 @@ Json
 
 PUT
 Ruta: api/personas
+
 Json
 
 {
@@ -34,6 +36,7 @@ Delete
 (en este caso el ID es FK de PersonaID en la tabla de tarea, si hay registros en la tabla tareas para ese ID no se podra borrar)
 
 Ruta: api/personas
+
 Json
 
 
@@ -103,10 +106,14 @@ Ruta: api/tareas
 
 *********************************
 Suma de Valor y Horas 
+
 Ruta: /api/resumenvalor/2
+
 Parámetro=2
 
+*************************************
 Detalle de tareas por Fecha y Persona
+
 Ruta: /api/detalle
 
 
